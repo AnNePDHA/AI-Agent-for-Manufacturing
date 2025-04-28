@@ -1,2 +1,1 @@
-# AI Agent for Manufacturing
-
+# SmartFactory AI Assistant
