@@ -69,7 +69,7 @@ AI_Lord/
 ├──components/  
 |   ├─agent.py     //The main agent is in here!
 |   ├─tools.py
-│     
+│   ├ ...  
 ├── app.py          //For the restful api with Flask!
 ├── .env.example
 ├── README.md
