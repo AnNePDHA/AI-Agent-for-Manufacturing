@@ -13,6 +13,14 @@ It leverages large language models (LLMs) to understand user queries, interact w
 
 **5. Knowledge-Based Assistance:** Provides contextual, data-backed answers without the need for real-time system integration, focusing on enhancing users’ understanding of historical and operational data.
 
+## Use cases
+
+- **Query Data:** Users can ask natural language questions (e.g., "Which machines had critical alarms?") that are automatically converted into SQL queries to retrieve relevant data.
+- **Check SQL Queries:** Users can submit SQL queries for validation and correction to ensure syntactical and logical accuracy before execution.
+- **View Table Structure:** The Assistant can display the schema (column names, data types) and sample records of selected tables for better database understanding.
+- **Analyze Data:** Provides insights and explanations for patterns or anomalies in manufacturing data, such as downtime trends, maintenance cycles, or production irregularities.
+- **Support Predictive Maintenance:** Enables users to access and analyze the PredictiveMaintenance_history table, offering insights that can improve maintenance scheduling and reduce machine downtime.
+
 ## Workflow Diagram
 ![Biểu đồ không có tiêu đề drawio (2)](https://github.com/user-attachments/assets/e9f4630e-e71a-429b-aa96-1a350661b1fc)
 
@@ -98,3 +106,17 @@ For full functionality, SmartFactory AI Assistant requires a connection to Azure
 3. Copy the endpoint, deployment name, and API key
 4. Create a `.env` file and copy the necessary configurations from `.env.example`
 5. Update the `.env` file with these credentials
+
+### Language & Framework
+
+- [x] Python
+- [ ] C#
+- [ ] Java
+- [x] JavaScript/TypeScript
+- [ ] Microsoft Copilot Studio
+- [ ] Microsoft 365 Agents SDK
+- [x] Azure AI Agent Service
+
+### Project Video
+
+https://drive.google.com/file/d/1CZmfky3Xgo69jFjx14my9qm9Rq-zTwaW/view?usp=sharing
