@@ -5,7 +5,7 @@ It leverages large language models (LLMs) to understand user queries, interact w
 ## Key Features
 **1. Cloud-based Deployment:** The AI Agent backend is hosted on Azure App Service, ensuring scalable, secure, and flexible deployment across manufacturing environments.
 
-**2. Custom LLM Development:** A tailored chatbot model is built and fine-tuned on Azure AI Foundry, optimized specifically for manufacturing support tasks, database interaction, and predictive maintenance queries.
+**2. Custom LLM Development:** A tailored chatbot model is built and prompting on Azure AI Foundry, optimized specifically for manufacturing support tasks, database interaction, and predictive maintenance queries.
 
 **3. Agent Architecture via LangChain:** Integrates open-source LangChain to orchestrate interactions between the AI model and external data sources, enabling complex tool usage like SQL querying, validation, and data analysis.
 
@@ -27,17 +27,16 @@ It leverages large language models (LLMs) to understand user queries, interact w
 ## Technical Explanation
 The SmartFactory AI Assistant system architecture is structured around several key technical components and processing stages:
 
-**1. Upload Documentation / Connect Data Source**
-- Users or system administrators can upload documents (formats such as PDF, DOCX, PPTX) to a designated Azure Storage location.
-- Alternatively, the system can connect directly to a SQL database containing manufacturing operational data, maintenance history, and predictive maintenance records.
+**1. Connect Data Source**
+- The system can connect directly to a SQL database containing manufacturing operational data, maintenance history, and predictive maintenance records.
 
 **2. LangChain Integration**
-- LangChain serves as the orchestration layer that links the fine-tuned LLM model with the processed data
+- LangChain serves as the orchestration layer that links the LLM model with the processed data
 
 **3. Answer Generation**
-- For each user question, if it's a knowledge-based query -> perform vector search on uploaded documents. If it's a structured data query → translate natural language into an SQL query.
-- The Azure AI Foundry fine-tuned model processes prompts or SQL queries.
-- The system returns a clear, user-friendly answer based on document content or database results.
+- For each user question, the system translates natural language into an SQL query.
+- The Azure AI Foundry with provided-promts-model processes prompts or SQL queries.
+- The system returns a clear, user-friendly answer based on database query results.
 
 ## Getting Started
 ### Prerequisites
