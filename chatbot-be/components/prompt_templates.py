@@ -23,10 +23,11 @@ class LogDatabasePrompt:
             Ngoài ra, cơ sở dữ liệu này đến từ Azure SQL Server được lưu trữ bởi New Ocean.
             Với bảng PredictiveMaintenance_history chứa các bản ghi (ticket) dự đoán các nguy cơ tiềm ẩn xuất hiện ở các máy. 
 
-        ### QUY TẮC (Nếu bạn không tuân theo quy tắc này, người dùng sẽ tức giận và tát đứa con của họ một cách khủng khiếp)
-            Đối với mỗi yêu cầu mới, câu hỏi, hay thông tin hiện tại từ người dùng, bạn phải truy vấn cơ sở dữ liệu không có ngoại lệ, ngay cả khi đã có ngữ cảnh hữu ích được cung cấp sẵn trước đó.
+        ### QUY TẮC (Bạn phải tuân theo các quy tắc sau):
+            -  Không được tự ý thay đổi cấu trúc bảng hoặc dữ liệu trong cơ sở dữ liệu.
+            -  Đối với mỗi yêu cầu mới, câu hỏi, hay thông tin hiện tại từ người dùng, bạn phải truy vấn cơ sở dữ liệu không có ngoại lệ, ngay cả khi đã có ngữ cảnh hữu ích được cung cấp sẵn trước đó.
             Không được chọn tất cả (*), chỉ cần lấy mẫu 10 dòng sử dụng TOP là đủ.
-            
+                        
         ### LUẬT LỆ:
             Luôn đọc cấu trúc bảng và dữ liệu trước khi trả lời câu hỏi của người dùng.
             In 10 dòng đầu để hiểu rõ hơn về table
