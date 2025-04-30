@@ -31,16 +31,10 @@ The SmartFactory AI Assistant system architecture is structured around several k
 - Users or system administrators can upload documents (formats such as PDF, DOCX, PPTX) to a designated Azure Storage location.
 - Alternatively, the system can connect directly to a SQL database containing manufacturing operational data, maintenance history, and predictive maintenance records.
 
-**2. Data Processing: Chunking & Vectorization**
-- Uploaded documents and database information are read and processed.
-- It chunks the data into smaller parts, turns them into vectors (embeddings), and stores them with metadata for fast searching.
-- The resulting vectors and associated metadata are stored in an external vector database or Storage
+**2. LangChain Integration**
+- LangChain serves as the orchestration layer that links the fine-tuned LLM model with the processed data
 
-**3. LangChain Integration**
-- LangChain serves as the orchestration layer that links the fine-tuned LLM model with the processed vectorized data
-- It decides whether to search document content, or generate SQL queries to fetch database information.
-
-**4. Answer Generation**
+**3. Answer Generation**
 - For each user question, if it's a knowledge-based query -> perform vector search on uploaded documents. If it's a structured data query → translate natural language into an SQL query.
 - The Azure AI Foundry fine-tuned model processes prompts or SQL queries.
 - The system returns a clear, user-friendly answer based on document content or database results.
