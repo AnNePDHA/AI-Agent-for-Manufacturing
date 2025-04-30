@@ -1,0 +1,98 @@
+﻿type,factory,workstation,tool,bearing,reason,created_time,PMId
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,2,There are 10 data point larger than limit in last 12 hours,2024-10-18 14:23:00.0000000,1
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,2,There are 10 data point larger than limit in last 12 hours,2024-10-18 14:23:00.0000000,2
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,2,There are 10 data point larger than limit in last 12 hours,2024-10-21 11:10:00.0000000,3
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,2,There are 10 data point larger than limit in last 12 hours,2024-10-21 11:13:00.0000000,4
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,2,There are 10 data point larger than limit in last 12 hours,2024-10-21 11:13:00.0000000,5
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,2,High vibration detected,2025-03-17 04:30:33.4033333,6
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling307,3,There are 5 data point larger than limit in last 6 hours,2025-03-18 16:13:00.0000000,7
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling307,3,Info row 1,2025-03-18 16:13:00.0000000,8
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling307,3,Info row 2,2025-03-18 16:15:00.0000000,9
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling307,3,Info row 3,2025-03-18 16:17:00.0000000,10
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling307,3,Info row 4,2025-03-18 16:19:00.0000000,11
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 18:13:00.0000000,12
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 19:15:00.0000000,13
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 19:17:00.0000000,14
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 20:19:00.0000000,15
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:00:00.0000000,16
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:05:00.0000000,17
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:10:00.0000000,18
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:15:00.0000000,19
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:20:00.0000000,20
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:25:00.0000000,21
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:30:00.0000000,22
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:35:00.0000000,23
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:40:00.0000000,24
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:45:00.0000000,25
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:50:00.0000000,26
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:55:00.0000000,27
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 22:00:00.0000000,28
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 22:05:00.0000000,29
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 22:10:00.0000000,30
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 22:15:00.0000000,31
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 22:20:00.0000000,32
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 22:25:00.0000000,33
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 22:30:00.0000000,34
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 22:35:00.0000000,35
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,7,Scheduled maintenance,2025-03-27 07:08:37.2165450,36
+trigger,Factory A,Workstation 1,ROUNDO-Rolling208,8,Scheduled maintenance,2025-03-27 13:34:53.0012030,37
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:35:00.0000000,42
+trigger,Factory A,Workstation 1,ROUNDO-Rolling208,7,Scheduled maintenance,2025-03-27 13:33:41.2635390,39
+trigger,Factory A,Workstation 1,ROUNDO-Rolling208,7,Scheduled maintenance,2025-03-27 13:34:17.1939770,40
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,5,Scheduled maintenance,2025-03-27 07:02:33.5301830,41
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:35:00.0000000,44
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,6,Unexpected vibration,2025-04-18 11:49:33.4785500,130
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,2,Unexpected vibration,2025-04-18 14:27:04.0674820,133
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:35:00.0000000,46
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:35:00.0000000,47
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:35:00.0000000,105
+warning,Factory 1,Workstation 1,ROUNDO-Rolling205,3,High vibration detected,2025-03-18 21:35:00.0000000,106
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,2,Scheduled maintenance,2025-03-27 09:09:16.5758740,107
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,8,Scheduled maintenance,2025-03-27 09:10:49.6674600,108
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,1,Unexpected vibration,2025-03-27 09:23:03.4620530,114
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,2,Scheduled maintenance,2025-03-27 09:28:41.3716630,115
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,7,Unexpected vibration,2025-03-27 17:38:35.6844270,118
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,7,Unexpected vibration,2025-03-28 10:19:40.0219250,119
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,1,Unexpected vibration,2025-03-28 14:12:44.3116730,120
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,6,Scheduled maintenance,2025-04-01 13:59:57.9935450,121
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,8,Unexpected vibration,2025-04-01 13:59:58.5054260,122
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,6,Scheduled maintenance,2025-04-03 16:31:50.3740610,124
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,5,Scheduled maintenance,2025-04-03 16:37:20.5908240,125
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,8,Unexpected vibration,2025-04-03 16:58:27.4937720,126
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,7,Scheduled maintenance,2025-04-04 18:21:48.1272340,127
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,7,Scheduled maintenance,2025-04-08 13:50:51.0490280,128
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,5,Scheduled maintenance,2025-04-14 15:20:47.5977460,129
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,5,Scheduled maintenance,2025-04-18 11:49:48.1256300,131
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,1,Unexpected vibration,2025-04-18 14:27:09.9553230,134
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,6,Scheduled maintenance,2025-04-18 17:09:49.4417290,135
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,7,Unexpected vibration,2025-04-21 16:10:47.5893940,136
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,6,Unexpected vibration,2025-04-21 16:10:55.5400840,137
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,1,Scheduled maintenance,2025-04-21 16:10:59.8174980,138
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,2,Unexpected vibration,2025-04-21 16:13:10.0831750,140
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,1,Unexpected vibration,2025-04-21 16:13:52.4531880,141
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,2,Scheduled maintenance,2025-04-21 16:19:09.9665320,142
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,7,Unexpected vibration,2025-04-21 16:19:12.1540330,143
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,1,Unexpected vibration,2025-04-21 16:19:13.5376810,144
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,1,Unexpected vibration,2025-04-21 16:19:19.5446280,145
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,2,Scheduled maintenance,2025-04-21 16:19:23.7720720,146
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,7,Scheduled maintenance,2025-04-21 16:19:25.8140550,147
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,6,Unexpected vibration,2025-04-21 16:19:28.0816350,148
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,5,Scheduled maintenance,2025-04-21 16:19:31.7039670,149
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,6,Scheduled maintenance,2025-04-21 16:19:37.5533550,150
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,8,Scheduled maintenance,2025-04-21 16:20:40.9432260,151
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,6,Scheduled maintenance,2025-04-22 00:21:41.8018930,154
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,8,Scheduled maintenance,2025-04-22 09:02:06.6698000,155
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,2,Unexpected vibration,2025-04-24 20:38:40.4629050,157
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,8,Scheduled maintenance,2025-03-27 09:12:02.8786100,109
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,5,Scheduled maintenance,2025-03-27 09:12:05.1920620,110
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,5,Scheduled maintenance,2025-03-27 16:17:15.4651190,111
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,7,Unexpected vibration,2025-03-27 16:17:17.7439020,112
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,1,Unexpected vibration,2025-03-27 09:22:22.8964770,113
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,7,Unexpected vibration,2025-03-27 16:51:41.0639030,117
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,1,Unexpected vibration,2025-04-18 11:53:04.3043040,132
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,8,Unexpected vibration,2025-04-21 16:13:04.3026380,139
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,7,Scheduled maintenance,2025-04-22 11:25:45.3634380,156
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,5,Unexpected vibration,2025-03-27 09:31:46.2805990,116
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,8,Scheduled maintenance,2025-04-01 14:02:37.2882670,123
+trigger,Factory 1,Workstation 1,ROUNDO-Rolling569,1,Scheduled maintenance,2025-04-21 16:28:20.7426310,152
+warning,Factory 1,Workstation 1,ROUNDO-Rolling569,2,Unexpected vibration,2025-04-21 16:28:26.5274480,153

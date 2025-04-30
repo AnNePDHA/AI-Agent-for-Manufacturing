@@ -21,13 +21,7 @@ def get_database():
     db = SQLDatabase.from_uri(f"{path}",
                           sample_rows_in_table_info=5,
                           ignore_tables=[
-                              "PredictiveMaintenance_results",
-                              "uc1_long_term_history",
-                              "uc1_short_term_history",
-                              "Ecommerce_Consumer_Behavior",
-                              "uc4_history",
-                              "uc4_realtime",
-                              "uc4_results",],
+                              "PredictiveMaintenance_results",],
 
                           custom_table_info={  
                                 "PredictiveMaintenance_history": f"{PredictiveMaintenance_history}",
