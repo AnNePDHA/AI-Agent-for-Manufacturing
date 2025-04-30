@@ -84,12 +84,3 @@ AI_Lord/
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
-
-## 📢 Contact
-
-For any inquiries, reach out to the project maintainer:
-
-- **Email:** your.email@example.com
-- **GitHub:** [yourusername](https://github.com/yourusername)
-
----
